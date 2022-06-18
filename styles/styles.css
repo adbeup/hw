@@ -1,0 +1,72 @@
+body{font-family: 'Playfair Display', serif;
+margin: 0 auto;
+font-size: 0;}
+nav {margin: 0 auto;
+display: block}
+.header-nav{
+    width:100%;
+    height: 70px;
+    text-align: center}
+.main-menu{margin-top:35px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+color: #3a3939;
+}
+.menu-item {display: inline-block;
+margin-right: 50px;
+    box-sizing: border-box;}
+
+.menu-item a {color: #3A3939FF;
+    text-decoration: none;}
+
+.menu-item  a:hover {color: #9b0e0e;
+    transition: 500ms;}
+
+section{display: inline-block;
+    margin: 0 auto;}
+
+img {width: 100%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 30px;}
+section{ display: flex;
+margin: 0 40px 40px 40px;}
+.section-lifestyle, .photodiary-section {
+    /*border-style: groove;*/
+    /*border-width:4px;*/
+    width: 50%;
+    padding: 30px 15px;}
+h2 {font-size: 35px;
+margin-bottom: 30px;
+font-weight: 700;
+    color: #3a3939}
+h3{font-size: 20px;
+color: darkgrey;
+margin-bottom: 30px}
+p{font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #3a3939;}
+.button{text-align: center;
+margin-bottom: 40px;}
+button{
+width: 212px;
+height: 66px;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+color: #191d26;
+background: #e3e2e2;
+border-radius: 10px;
+transition: 500ms;
+cursor: pointer;
+margin: auto;
+border: none;
+}
+
+button:hover {
+    background: #949393;
+    transition: 500ms;
+}
